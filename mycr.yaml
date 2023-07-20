@@ -1,0 +1,12 @@
+apiVersion: example.com/v1
+kind: MyCRD
+metadata:
+  name: my-mycr
+spec:
+  volumes:
+    - name: volume1
+      size: 10Gi
+    - name: volume2
+      size: 5Gi
+    - name: volume3
+      size: 3Gi
